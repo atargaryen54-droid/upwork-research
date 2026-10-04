@@ -7,7 +7,7 @@ import Dashboard from './Dashboard.tsx'
 
 /* ---------- options ---------- */
 
-const RELEVANCE = ['Direct', 'Adjacent', 'Expansion']
+const RELEVANCE = ['Direct', 'Adjacent', 'Explore']
 const NEEDS = [
   'Build API/backend',
   'Add backend feature',
