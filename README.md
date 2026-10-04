@@ -1,32 +1,9 @@
-# React + TypeScript + Vite
+# Upwork reconnaissance tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+I made this tool to gather data from upwork conveniently so that I can understand the market, it is tailored specifically to my field or skills but it can easily be modified to suit the needs of anyone who is new to upwork and wants to do some research about the market
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+V1 of the app only concerns itself with acquiring data about jobs so that I can see where I stand in the market, but future version will include ways to track proposal submissions, track projects won and insights to iteratively improve my progress in upwork. 
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+The app contains a simple form and a dashboard, frontend made with React(Vite) and supabase is used to collect data in the backend
