@@ -43,7 +43,7 @@ const TECH = [
 const PAY_TYPE = ['Fixed price', 'Hourly']
 const EXPERIENCE = ['Entry', 'Intermediate', 'Expert', 'Not specified']
 const PROPOSALS = ['0-5', '5-10', '10-20', '20-50', '50+']
-const CAN_DO = ['Yes', 'Mostly', 'Not Yet']
+const CAN_DO = ['Yes', 'Mostly', 'Not yet']
 const WOULD_APPLY = ['Yes', 'Maybe', 'No']
 
 /* ---------- navigation ---------- */
