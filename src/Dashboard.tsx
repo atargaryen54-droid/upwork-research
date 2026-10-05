@@ -36,8 +36,8 @@ function Dashboard() {
     (job) => job.relevance === 'Adjacent'
     ).length
 
-    const expansionJobs = jobs.filter(
-    (job) => job.relevance === 'Expansion'
+    const exploreJobs = jobs.filter(
+    (job) => job.relevance === 'Explore'
     ).length
 
     const jobTypeCounts: Record<string, number> = {}
@@ -153,8 +153,8 @@ function Dashboard() {
                 </div>
 
                 <div className="stat-card">
-                <span>Expansion</span>
-                <strong>{expansionJobs}</strong>
+                <span>Explore</span>
+                <strong>{exploreJobs}</strong>
                 </div>
             </div>
             </section>
